@@ -1,3 +1,13 @@
+// This is a simple *viewmodel* - JavaScript that defines the data and behavior of your UI
+function AppViewModel() {
+    this.firstName = ko.observable("Kelly");
+    this.lastName = ko.observable("Slater");
+}
+
+// Activates knockout.js
+ko.applyBindings(new AppViewModel());
+
+/*
 var map;
 // Create a new blank array for all the listing markers.
 var markers = [];
@@ -61,3 +71,4 @@ function populateInfoWindow(marker, infowindow) {
     });
   }
 }
+*/
